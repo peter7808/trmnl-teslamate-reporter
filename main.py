@@ -26,7 +26,7 @@ MQTT_PORT = int(os.environ.get("MQTT_PORT", "1883"))
 MQTT_USER = os.environ.get("MQTT_USERNAME")
 MQTT_PASSWORD = os.environ.get("MQTT_PASSWORD")
 WEBHOOK_URL = os.environ.get("WEBHOOK_URL")
-CAR_ID = int(os.environ.get("CAR_ID", "1"))
+CAR_ID = int(os.environ.get("CAR_ID", "LRWYGCEK5NC222031"))
 
 def fetch_data_mqtt():
     """Fetch data from MQTT"""
